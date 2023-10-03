@@ -2,7 +2,7 @@ AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
 BATCH_SIZE: 16
 INCLUDE_TOP: False # train only customer layer instead of training from stratch
-EPOCHS: 8
+EPOCHS: 1
 CLASSES: 2  # outputs only two classes
 WEIGHTS: imagenet # alread trained on this imagenet dataset
 LEARNING_RATE: 0.01
