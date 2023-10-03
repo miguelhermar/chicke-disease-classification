@@ -11,7 +11,7 @@ AUTHOR_USER_NAME = "miguelhermar"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "miguelangel.hermar410@gmail.com"
 
-
+# sets up cnnClassifier folder as local package
 setuptools.setup(
     name=SRC_REPO,
     version=__version__,

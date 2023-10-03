@@ -14,4 +14,4 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
--e . # set up src folder as local package (installs setup.py)
+-e . # set up cnnClassifier folder as local package (installs setup.py)
