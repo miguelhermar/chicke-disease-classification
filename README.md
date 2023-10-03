@@ -1,1 +1,1 @@
-# chicke-disease-classification
+# chicken-disease-classification
