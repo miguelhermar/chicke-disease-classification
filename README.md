@@ -1,5 +1,7 @@
 # Chicken-Disease-Classification
 
+(to check tensorflow logs insert in terminal: tensorboard --logdir artifacts/prepare_callbacks/tensorboard_log_dir)
+
 
 ## Workflows
 
