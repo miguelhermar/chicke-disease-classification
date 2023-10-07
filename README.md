@@ -54,9 +54,12 @@ open up you local host and port
 
 ### DVC cmd
 
+DVC controls and tracks the pipeline, whether it has run or not, etc.
+If a step in the pipeline changes, it only runs that step again and everything else is skipped.
+
 1. dvc init
 2. dvc repro
-3. dvc dag
+3. dvc dag: see a graph of the relationships between the steps in the pipeline
 
 
 
