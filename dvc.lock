@@ -1,5 +1,3 @@
-# this files saves all the metadata related to the runs
-
 schema: '2.0'
 stages:
   data_ingestion:
@@ -75,7 +73,7 @@ stages:
       params.yaml:
         AUGMENTATION: true
         BATCH_SIZE: 16
-        EPOCHS: 1
+        EPOCHS: 8
         IMAGE_SIZE:
         - 224
         - 224
@@ -83,7 +81,7 @@ stages:
     outs:
     - path: artifacts/training/model.h5
       hash: md5
-      md5: 8b9a06b7fd4ead63152f031d030424d4
+      md5: 7b77511da89fa80cb0b16cf1d8e74b82
       size: 59340720
   evaluation:
     cmd: python src/cnnClassifier/pipeline/stage_04_evaluation.py
@@ -95,7 +93,7 @@ stages:
       nfiles: 390
     - path: artifacts/training/model.h5
       hash: md5
-      md5: 8b9a06b7fd4ead63152f031d030424d4
+      md5: 7b77511da89fa80cb0b16cf1d8e74b82
       size: 59340720
     - path: config/config.yaml
       hash: md5
@@ -115,5 +113,5 @@ stages:
     outs:
     - path: scores.json
       hash: md5
-      md5: ba8d47501a46682452603dd57e4f2123
-      size: 55
+      md5: b67f55fb48f98d98813e734489cb145f
+      size: 70
