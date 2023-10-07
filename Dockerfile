@@ -1,7 +1,7 @@
 FROM python:3.10-slim-buster
 
 # updates every package manager and installs awscli for the deployment in AWS
-RUN apt update -y && apt install awscli -y  
+RUN apt update -y && apt install -y awscli gcc python3-dev && apt-get clean
 # creates one app directory where the model will be built
 WORKDIR /app
 
