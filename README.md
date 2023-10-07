@@ -96,7 +96,7 @@ If a step in the pipeline changes, it only runs that step again and everything e
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 714501908979.dkr.ecr.us-east-2.amazonaws.com/chicken
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
