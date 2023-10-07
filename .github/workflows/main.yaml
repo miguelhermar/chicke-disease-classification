@@ -6,7 +6,7 @@ name: workflow
 on:
   push:
     branches:
-      - main   # whenenver you're committing the code to the main branch it will look for the commit and ignore the README file
+      - main   # whenever you're committing the code to the main branch it will look for the commit and ignore the README file
     paths-ignore:
       - 'README.md'
 
