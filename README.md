@@ -143,16 +143,16 @@ If a step in the pipeline changes, it only runs that step again and everything e
 
 ## Save pass:
 
-s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
+h5H1l3cdxy8SIiPk7fpQ/aRNQYA2TEqblhz5nilPa4+ACRCoHdzl
 
 
 ## Run from terminal:
 
-docker build -t chickenapp.azurecr.io/chicken:latest .
+docker build -t chickenapp1.azurecr.io/chicken:latest .
 
-docker login chickenapp.azurecr.io
+docker login chickenapp1.azurecr.io
 
-docker push chickenapp.azurecr.io/chicken:latest
+docker push chickenapp1.azurecr.io/chicken:latest
 
 
 ## Deployment Steps:

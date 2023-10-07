@@ -9,7 +9,7 @@ WORKDIR /app
 COPY . /app
 
 # installs requirements
-RUN pip install -r requirements.txt
+RUN pip install --timeout=300 -r requirements.txt
 
 #since it's a Linux machine where the deployment will happen, one needs to specify the python version
 CMD ["python3", "app.py"]
